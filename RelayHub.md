@@ -5,3 +5,7 @@ RelayHub is a lightweight, server-agnostic relay system designed to bridge tradi
 Event-producing applications or services simply invoke RelayHub through standard HTTP calls whenever an event needs to be broadcast. RelayHub, in turn, maintains persistent WebSocket (or similar) connections exclusively with end users—acting as a smart intermediary. This separation eliminates the need for servers to handle and manage long-lived socket connections, significantly reducing overhead, simplifying deployment, and improving scalability under resource constraints.
 
 By serving as a centralized, always-on relay layer, RelayHub allows legacy systems and modern microservices alike to offer real-time features without architectural overhaul. It is ideal for scenarios where real-time responsiveness is critical, but server-side socket infrastructure is impractical or undesirable.
+
+
+### [Intellectual property (IP) Notice](https://github.com/nightmaregaurav/project-docs-vault?tab=readme-ov-file#%EF%B8%8F-intellectual-property-notice)
+### [Disclaimer](https://github.com/nightmaregaurav/project-docs-vault?tab=readme-ov-file#-disclaimer)
